@@ -11,6 +11,12 @@ class Main {
 
 		System.out.println(miPuerta);
     //Ver como esta la ventana de la puerta derecha:
+		System.out.println(miCoche.getPuertaDer());
+		//Abrir puerta derecha:
+		miCoche.getPuertaDer().abrir();
+		Systema.out.println(miCoche);
+
+
 
 
 
