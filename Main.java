@@ -7,8 +7,9 @@ class Main {
     Coche miCoche = new Coche();
     System.out.println(miCoche);
     //Ver como esta el motor:
-    System.out.println(miMotor);
+    System.out.println(miCoche.getMotor());
 
+		System.out.println(miPuerta);
     //Ver como esta la ventana de la puerta derecha:
 
 
