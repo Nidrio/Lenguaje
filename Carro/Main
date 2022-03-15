@@ -1,0 +1,18 @@
+class Main {
+	public static void main(String[] args) {
+
+		Motor miMotor = new Motor();
+		Ventana miVentana = new Ventana();
+		Puerta miPuerta = new Puerta();
+    Coche miCoche = new Coche();
+    System.out.println(miCoche);
+    //Ver como esta el motor:
+    System.out.println(miMotor);
+
+    //Ver como esta la ventana de la puerta derecha:
+
+
+
+
+	}
+}
