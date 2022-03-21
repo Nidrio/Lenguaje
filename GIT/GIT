@@ -19,3 +19,8 @@ GIT PASO A PASO:
 3.1 Va a estar en rojo cuando hayamos editado un archivo.
 3.2.Va a estar en verde cuando:
     - git add "nombre archivo"
+4. Para ver los commits realizados:
+    - git log.
+    - git log -p == Ver los commits modificados al detalle.
+    - git log - 3 == Ver los 3 ultimos(Dependiendo del número).
+    
