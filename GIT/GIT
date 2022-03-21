@@ -1,2 +1,21 @@
 Para ir guardando cosas y probando git...
 Primera linea de prueba
+
+Modificar para guardar con terminal.
+
+GIT PASO A PASO:
+1. Entro en la carpeta que quiero que se convierta en un repositorio.
+    Usando los comandos en la terminal.
+2.1 Crear un repositorio. La carpeta se convierte en un repositorio.
+    - git init.
+2.2 Clonar una que ya existe
+    - git clone "url".
+3. Para ver el estado de mi repositorio.
+    - git status.
+    Me dice en que rama estoy y si hay archivos modificados
+    Si esta en rojo: Modificado en "Unstaged Changes" sin estar preparado Para
+    ser subido mediante un commit.
+    Si esta en verde: modificado en "Staged Changes" pero parado para el commit.
+3.1 Va a estar en rojo cuando hayamos editado un archivo.
+3.2.Va a estar en verde cuando:
+    - git add "nombre archivo"
