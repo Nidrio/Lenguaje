@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="content-type" content="text/html">
+    <meta charset="utf-8"/>
+    <title>Formulario</title>
+  </head>
+  <body>
+    <!-- Method => post o get.
+    Post para mandar la informacion en el cuerpo del mensaje. Codificado y
+    cifrado por el protocolo HTTP. Se envia al back, lo recibe un archivo
+    (PHP por ejemplo).
+    Get para mandar la informacion en la cabecera del mensaje == en la URL==
+    lo puede leer todo el mundo. No es apto para contaseñas.
+    Action => Tenemos que indicar que archivo lo recibe-->
+    <form method="get" action="procesamiento.php">
+      <!-- Datos usuario -->
+      <p>
+        <label for="idUsuario">
+          Usuario:
+        </label>
+        <input type="text" name="usuario" id="idUsuario" placeholder="Nombre usuario" ><br/>
+        <laber for="idContrasena">
+        Contraseña:
+        </label
+        <input type="password" name="contrasena" id="idContrasena" placeholder="Contraseña"><br/>
+      </p>
+      <!-- Boton -->
+      <p>
+        <input type="submit" value="Click aqui"></input>
+      </p>
+    </form>
+  </body>
+</html>
+<!-- Comentario -->
