@@ -5,10 +5,10 @@ public class Matriz{
 
 
   public Matriz(){
-    this.filas = 2;
-    this.columnas = 2;
+    this.filas = 8;
+    this.columnas = 8;
     this.matriz = new int[filas][columnas];
-    this.matriz.rellenarMatriz(0);
+    rellenarMatriz(-1);
   }
 
   public Matriz(int filas, int columnas){
@@ -19,18 +19,52 @@ public class Matriz{
 
 
   public void rellenarMatriz(int numero){
-    for (int i = 0; i< this.filas ; i++){
-      for(int j = 0; j< this.columnas ; ++){
+    for (int i = 0; i < this.filas ; i++){
+      for(int j = 0; j < this.columnas ; j++){
         this.matriz[i][j] = numero;
       }
     }
   }
-  public void imprimir (){
-    for (int i = 0; i< this.filas ; i++){
-      for(int j = 0; j< this.columnas ; ++){
-        System.out.print(this.matriz[i][j]);
+
+  public void rellenarMatrizFila(int numero){
+    for (int i = 0; i < this.filas ; i++){
+      numero = +1
       }
-      System.out.println("");
+  }
+  public void rellenarMatrizColumna(){
+
+    }
+  public void rellenarMatrizPosicion(){
+
+    }
+
+
+  public void rellenarMatrizFilaXColumna(){
+
+      }
+
+  }
+
+  public void lineaH(){
+    for (int i = 0 ; i < this.columnas ; i++){
+      System.out.print("--");
+    }
+    System.out.println("-");
+  }
+
+
+  public void imprimir (){
+    lineaH();
+    lineaH();
+    for (int i = 0; i < this.filas ; i++){
+      System.out.print("|");
+      for(int j = 0; j < this.columnas ; j++){
+        System.out.print(this.matriz[i][j]);
+        System.out.print("|");
+      }
+      System.out.println();
+      lineaH();
+      lineaH();
     }
   }
 }
