@@ -40,3 +40,5 @@ GIT PASO A PASO:
     - Git branch "nombre".
 8.3 Para movernos entre ramas las ramas:
     -Git checkout "nombre de la rama"
+8.4 Para push una rama nueva:
+    -Git push "url repositorio".
