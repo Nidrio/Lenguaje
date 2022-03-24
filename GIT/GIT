@@ -31,3 +31,5 @@ GIT PASO A PASO:
     -Git push y la "url".
 6.2. Si ya tenemos enlazado el Github con el repositorio:
     -Git push.
+7. Para ver las modificaciones de un archivo:
+    -Git diff
