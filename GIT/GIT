@@ -42,3 +42,6 @@ GIT PASO A PASO:
     -Git checkout "nombre de la rama"
 8.4 Para push una rama nueva:
     -Git push "url repositorio".
+8.5 Para unir rama al main (prevalece main)
+    -Git branch -d "nombre"
+    -Git branch -D "nombre" (D Mayuscula elimina sin preguntar).
