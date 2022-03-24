@@ -8,7 +8,7 @@ public class Matriz{
     this.filas = 8;
     this.columnas = 8;
     this.matriz = new int[filas][columnas];
-    rellenarMatriz(-1);
+    rellenarMatriz(0);
   }
 
   public Matriz(int filas, int columnas){
@@ -16,7 +16,6 @@ public class Matriz{
     this.columnas = columnas;
     this.matriz = new int[filas][columnas];
   }
-
 
   public void rellenarMatriz(int numero){
     for (int i = 0; i < this.filas ; i++){
@@ -26,24 +25,54 @@ public class Matriz{
     }
   }
 
-  public void rellenarMatrizFila(int numero){
+  public void rellenarMatriz(int numero){
     for (int i = 0; i < this.filas ; i++){
-      numero = +1
+      for(int j = 0; j < this.columnas ; j++){
+        this.matriz[i][j] = numero;
+      }
+    }
+  }
+  
+  public void rellenarMatrizFila(){
+    for (int i = 0; i < this.filas ; i++){
+      for(int j = 0; j < this.columnas ; j++){
+        this.matriz[i][j] = i;
       }
   }
+}
   public void rellenarMatrizColumna(){
-
+    for (int i = 0; i < this.filas ; i++){
+      for(int j = 0; j < this.columnas ; j++){
+        this.matriz[i][j] = j;
+      }
     }
+  }
   public void rellenarMatrizPosicion(){
-
+    int posicion = 0;
+    for (int i = 0; i < this.filas ; i++){
+      for(int j = 0; j < this.columnas ; j++){
+        this.matriz[i][j] = posicion;
+        posicion++;
+      }
     }
+  }
 
+
+  public void rellenarMatrizFilaMasColumna(){
+    for (int i = 0; i < this.filas ; i++){
+      for(int j = 0; j < this.columnas ; j++){
+        this.matriz[i][j] = i+j;
+        }
+      }
+    }
 
   public void rellenarMatrizFilaXColumna(){
-
+    for (int i = 0; i < this.filas ; i++){
+      for(int j = 0; j < this.columnas ; j++){
+        this.matriz[i][j] = i*j;
+        }
       }
-
-  }
+    }
 
   public void lineaH(){
     for (int i = 0 ; i < this.columnas ; i++){
