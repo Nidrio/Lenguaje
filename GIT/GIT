@@ -33,3 +33,10 @@ GIT PASO A PASO:
     -Git push.
 7. Para ver las modificaciones de un archivo:
     -Git diff
+8. Con las ramas:
+8.1 Para mostrar las ramas
+    - Git branch
+8.2 Para crear una rama:
+    - Git branch "nombre".
+8.3 Para movernos entre ramas las ramas:
+    -Git checkout "nombre de la rama"
