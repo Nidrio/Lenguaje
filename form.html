@@ -42,15 +42,43 @@
         Comida favorita:<br/>
         <input type="checkbox" name"comida[]" value="CarneS" id="idCarneS">
         <label for="idCarneS">Carne en salsa</label></br>
-        <input type="checkbox" name"comida[]" value="Lasaña" id="idLasaña">
-        <label for="idLasaña">Lasaña</label></br>
-        <label for="">Ñoquis</label></br>
-        <label for="">Espaguetis</label></br>
-        <label for="">Pan</label></br>
-        <label for="">Pizza</label></br>
-        <label for="">Croquetas</label></br>
-        <label for="">Migas con melón</label></br>
+        <input type="checkbox" name"comida[]" value="Lasana" id="idLasana" checked>
+        <label for="idLasana">Lasana</label></br>
+        <input type="checkbox" name"comida[]" value="Noquis" id="idNoquis">
+        <label for="idNoquis">Noquis</label></br>
+        <input type="checkbox" name"comida[]" value="Espaguetis" id="idEspaguetis">
+        <label for="idEspaguetis">Espaguetis</label></br>
+        <input type="checkbox" name"comida[]" value="Pan" id="idPan">
+        <label for="idPan">Pan</label></br>
+        <input type="checkbox" name"comida[]" value="Pizza" id="idPizza">
+        <label for="idPizza">Pizza</label></br>
+        <input type="checkbox" name"comida[]" value="Croquetas" id="idCroquetas">
+        <label for="idCroquetas">Croquetas</label></br>
+        <input type="checkbox" name"comida[]" value="Migas con melón" id="idMigasCM">
+        <label for="idMigasCM">Migas con melón</label></br>
       </p>
+
+      <p>
+        <label for="idComidaFavSelect">Comida favorita</label></br>
+        <select name="ComidaFavSelect" id="idComidaFavSelect">
+          <option value="Migas" selected>Migas</option>
+          <option value="Pizza">Pizza</option>
+          <option value="Pan">Pan</option>
+          <option value="Croquetas">Croquetas</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="idComidaFavLista">Comida favorita</label></br>
+        <input list="ComidaFavLista" name="NameComidaFavLista" id="idComidaFavLista"/>
+        <datalist id="ComidaFavLista">
+          <option value="Migas"/>
+          <option value="Pizza"/>
+          <option value="Pan"/>
+          <option value="Croquetas"/>
+        </datalist>
+      </p>
+
       <!-- Boton -->
       <p>
         <input type="submit" value="Click aqui"></input>
