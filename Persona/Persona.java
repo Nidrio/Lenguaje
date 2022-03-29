@@ -1,15 +1,18 @@
-// Clase persona herencia
-// Dos tipos de herencia: Extension(a los metodos del padre le añadimo metodos propios) y especializacion(modificamos los métodos del padre para adaptarlos a nuestras necesidades).
-//Además de la herencia por ahregacion o composicion (añadir clases como atributos de nuestra clase) explicado en coche.
+// Clase persona Herencia
+// Dos tipos de herencia: extension (a los métodos del padre le añadimos métodos
+// propios) y especializacion (modificamos los métodos del padre para adaptarlos
+// a nuestras necesidades).
+// Además de la herencia por agregación o composición (añadir clases como atri-
+// butos de nuestra clase) explicado en coche.
 
 public class Persona{
-    private String nombre;
-    private String dni;
+  private String nombre;
+  private String dni;
 
-    //Constructor
-    public Persona(){
-    this.nombre = "Juancito";
-    this.dni = "47177385S";
+  //Constructor
+  public Persona(){
+    this.nombre = "Celia";
+    this.dni = "12345678H";
   }
   public Persona(String nombre, String dni){
     this.nombre = nombre;
@@ -20,17 +23,20 @@ public class Persona{
   public String getNombre(){
     return this.nombre;
   }
-
   public String getDni(){
     return this.dni;
   }
 
+  //Set
   public void setNombre(String nombre){
     this.nombre = nombre;
   }
-
   public void setDni(String dni){
     this.dni = dni;
+  }
+
+  public String toString(){
+    return "Me llamo " + this.nombre + " y mi dni es " + this.dni + ".";
   }
 
 }
