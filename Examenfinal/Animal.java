@@ -1,4 +1,4 @@
-class Animal{
+public class Animal{
   private String especie;
   private int nAnimales;
   private String comidaFav;
@@ -6,10 +6,10 @@ class Animal{
 
 //CONSTRUCTORES
   public Animal(){
-  this.especie = "Hipogrifo";
-  this.nAnimales = 8;
-  this.comidaFav = "Unicornios";
-  this.nPatas = 4;
+    this.especie = "Puerco Araña";
+    this.nAnimales = 8;
+    this.comidaFav = "Donuts";
+    this.nPatas = 4;
   }
 
   public Animal(String especie, int nAnimales, String ComidaFav, int nPatas){
@@ -58,8 +58,8 @@ class Animal{
   }
 
 // TO STRING
-public String toString(){
-  return "La especie del animal es " + this.especie + " el número de animales de esa especie es " + this.nAnimales + " su comida favorita es " + this.comidaFav + " y tiene" + this.nPatas + " patas.";
-}
+  public String toString(){
+    return "La especie del animal es " + this.especie + " el número de animales de esa especie es " + this.nAnimales + " su comida favorita es " + this.comidaFav + " y tiene" + this.nPatas + " patas.";
+  }
 
 }

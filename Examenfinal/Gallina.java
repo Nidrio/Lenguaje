@@ -21,15 +21,15 @@ public class Gallina extends Animal{
 //GET
 
   public int getHuevosDia(){
-  return this.huevosDia;
+    return this.huevosDia;
   }
 
   public int getDiasPoniendo(){
-  return this.diasPoniendo;
+    return this.diasPoniendo;
   }
 
   public int getHuevosTotales(){
-  return this.huevosTotales;
+    return this.huevosTotales;
   }
 
 
@@ -40,12 +40,12 @@ public class Gallina extends Animal{
   }
 
   public void setDiasPoniendo(int diasPoniendo){
-      this.diasPoniendo;
+    this.diasPoniendo;
   }
 
   public void setHuevosTotales(int huevosTotales){
-      this.huevosTotales;
-    }
+    this.huevosTotales;
+  }
 
 //METODO
   public int huevosTotal(int huevosDia, int diasPoniendo){
