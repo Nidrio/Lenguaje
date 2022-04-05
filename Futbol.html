@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="content-type" content="text/html">
+    <meta charset="utf-8"/>
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form method="get" action="procesamiento.php">
+        <p>
+          <label for="idJugador">
+          Nombre del jugador:
+          </label>
+          <input type="text" name="jugador" id="idJugador" placeholder="Nombre del jugador" ><br/>
+          <laber for="idJugador">
+          Edad:
+          </label>
+          <input type="text" name="edad" id="idEdad" placeholder="Edad"><br/>
+          <label for="idEdad">
+          Dorsal:
+          <input type="text" name="dorsal" id="idDorsal" placeholder="Dorsal"><br/>
+          <label for="idDorsal">
+        </p>
+        <p>
+          ¿Has estado federado?:<br/>
+          <input type="radio" name="Federado" value="Si" id="idSi">
+          <label for="idSi">Si</label><br/>
+          <input type="radio" name="Federado" value="No" id="idNo">
+          <label for="idNo">No</label><br/>
+        </p>
+        <p>
+        Posición:<br/>
+        <input type="checkbox" name"posición[g]" value="Portero" id="idPortero">
+        <label for="idPortero">Portero</label></br>
+        <input type="checkbox" name"posición[]" value="Defensa" id="idDefensa">
+        <label for="idDefensa">Defensa</label></br>
+        <input type="checkbox" name"posición[]" value="Centro" id="idCentro">
+        <label for="idCentro">Centro</label></br>
+        <input type="checkbox" name"posición[]" value="Delantero" id="idDelantero">
+        <label for="idDelantero">Delantero</label></br>
+        <input type="checkbox" name"posición[]" value="LateralIzquierdo" id="idLateralIzquierdo">
+        <label for="idLateralIzquierdo">LateralIzquierdo</label></br>
+        <input type="checkbox" name"posición[]" value="LateralDerecho" id="idLateralDerecho">
+        <label for="idLateralDerecho">LateralDerecho</label></br>
+      </p>
+      <p>
+        <label for="idEntrenamientoLista">Turno de entrenamiento</label></br>
+        <input list="EntrenamientoLista" name="NameEntrenamientoLista" id="idEntrenamientoLista"/>
+        <datalist id="EntrenamientoLista">
+          <option value="Lunes y Miércoles"/>
+          <option value="Martes y Jueves"/>
+          <option value="Martes y Viernes"/>
+          <option value="Miércoles y Sábado"/>
+          <option value="Viernes y Sábado"/>
+        </datalist>
+      </p>
+      <p>
+        <label for="idEquipoSelect">Club donde juega</label></br>
+        <select name="EquipoSelect" id="idEquipoSelect">
+          <option value="Barcelona FC" selected>Barcelona FC</option>
+          <option value="Chelsea FC">Chelsea FC</option>
+          <option value="Sevilla FC">Sevilla FC</option>
+          <option value="Manchester City">Manchester City</option>
+          <option value="Bayern Munich">Bayern Munich</option>
+        </select>
+      </p>
+    </form>
+  </body>
+</html>
