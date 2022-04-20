@@ -1,0 +1,45 @@
+body{
+  color: darkblue;
+  width: 75%;
+  margin: auto;
+}
+
+}
+header{
+
+}
+footer{
+
+}
+.cabecera{
+  text-align: center;
+  font-family: fantasy;
+  padding: 10px;
+  background-color: #00c8ff;
+}
+
+.navegador{
+  text-align: left;
+  font-family: fantasy;
+  background-color: lightblue;
+  border-color: black;
+}
+
+.navegador ul {
+  text-align: left;
+  font-family: fantasy;
+  border-radius: 15%
+  padding: 5px;
+  border-style: solid;
+  background-color: lightblue;
+  border-color: black;
+  list-style: none;
+  display: flex;
+}
+
+.navegador a{
+margin: 130px;
+padding: 5px;
+text-decoration: none;
+text
+}
