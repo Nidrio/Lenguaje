@@ -8,9 +8,6 @@ body{
 header{
 
 }
-footer{
-
-}
 .cabecera{
   text-align: center;
   font-family: fantasy;
@@ -41,5 +38,30 @@ footer{
 margin: 130px;
 padding: 5px;
 text-decoration: none;
-text
+}
+#contenedor{
+  border-style: solid;
+  border-color: darkblue;
+  width: 100%;
+}
+.articulo{
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  border-style: solid;
+  border-color: blue;
+  max-width: 150px;
+  max-height: 250px;
+  float: left;
+}
+.img{
+  width: 150px;
+}
+#pie{
+  text-align: center;
+  font-family: fantasy;
+  padding: 10px;
+  width: 100%;
+  background-color: #00c8ff;
+  float:left;
 }
