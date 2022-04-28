@@ -3,5 +3,4 @@ abstract class Animal{
     return "ZzZ";
   }
   public abstract String onomatopeya();
-
 }
