@@ -3,5 +3,6 @@ class Main{
     Gato miguel = new Gato();
     System.out.println(miguel.onomatopeya());
     System.out.println(miguel.durmiendo());
+    System.out.println(miguel.comiendo());
   }
 }
