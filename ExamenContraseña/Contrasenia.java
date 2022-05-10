@@ -10,8 +10,8 @@ public abstract class Contrasenia{
   public boolean noRepetidos(){
    //return "Codigo sin implementar: No se repiten";
    boolean contador:true
-   char actual, anterior = this.pass.charAt(0);
    int contador = 1;
+   char actual = this.pass.charAt(0), anterior;
    for (int i = 1 ; 1 < (this.pass).length() && valido; i++){
      anterior = actual;
      actual = this.pass.charAt(i);
@@ -21,9 +21,9 @@ public abstract class Contrasenia{
    }
    return valido;
  }
+
   public abstract boolean tamaValido();
   public abstract boolean charValido();
-
   public boolean contrValida(){
    return this.tamaValido() && this.charValido() && this.noRepetidos();
   }

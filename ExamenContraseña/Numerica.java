@@ -22,6 +22,7 @@ class Numerica extends Contrasenia{
     /*
       return "charValido sin implementar";
     */
+    /*
     char[] numeros = {48,49,50,51,52,53,54,55,56,57,58};
     boolean valido = true;
     for (int i = 0 ; i < (this.pass).length() && valido; i++){
@@ -34,21 +35,16 @@ class Numerica extends Contrasenia{
       return valido;
     }
 
+    public boolean charValido(){
 
-  public int getTama(){
-    return this.tama;
-  }
-
-  public int getNumeros(){
-    return this.numeros;
-  }
-
-
-  public void setTama(int tama){
-    this.tama;
-  }
-
-  public void setNumeros(int numeros){
-    this.numeros;
-  }
+      return "charValido sin implementar";
+    */
+    // Para cada letra de la contraseña pass (this.pass.charAt(i))
+    // comprobamos si es un dígito/número con (Character.isDigit(char que queremos comprobar))
+    boolean valido = true;
+    for (int i = 0 ; i < (this.pass).length() && valido; i++){
+      valido = Character.isDigit(this.pass.charAt(i));
+        }
+      return valido;
+    }
 }
