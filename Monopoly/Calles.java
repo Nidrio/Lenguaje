@@ -3,15 +3,15 @@ import java.util.Scanner;
 
 enum Calles{
   ("EEVEE", "MARRON", 220, 0),
-	("GLACEON", "CELESTE", 180, 0),
-	("UMBREON", "NEGRO", 340, 0),
-	("FLAREON", "ROJO", 480, 0),
-	("DRACEON", "GRIS", 220, 0),
+	("GLACEON", "AZUL", 180, 0),
+	("UMBREON", "MARRON", 340, 0),
+	("FLAREON", "AMARILLO", 480, 0),
+  ("DRACEON", "MARRON", 220, 0),
 	("JOLTEON", "AMARILLO", 260, 0),
 	("LEAFEON", "VERDE", 300, 0),
-  ("VAPOREON", "AZUL", 320, 0),
-  ("SYLVEON", "ROSA", 350, 0),
-  ("ESPEON", "MORADO", 400, 0);
+	("VAPOREON", "AZUL", 320, 0),
+	("SYLVEON", "ROSA", 350, 0),
+	("ESPEON", "ROSA", 400, 0);
 
 	private String nombre;
 	private String color;
