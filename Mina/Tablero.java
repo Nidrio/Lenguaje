@@ -9,14 +9,14 @@ class Tablero{
   public Tablero(){
       this.filas = 5;
       this.columnas = 5;
-      this.tablero = new Ficha[filas][columnas];
-
+      this.tablero = new String[filas][columnas];
     }
 
-
-
-
-
-
+    public Tablero(int filas, int columnas){
+      this.filas = filas;
+      this.columnas = columnas;
+      this.tablero = new String[filas][columnas];
+    }
+    
 
 }

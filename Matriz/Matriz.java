@@ -24,15 +24,6 @@ public class Matriz{
       }
     }
   }
-
-  public void rellenarMatriz(int numero){
-    for (int i = 0; i < this.filas ; i++){
-      for(int j = 0; j < this.columnas ; j++){
-        this.matriz[i][j] = numero;
-      }
-    }
-  }
-  
   public void rellenarMatrizFila(){
     for (int i = 0; i < this.filas ; i++){
       for(int j = 0; j < this.columnas ; j++){
